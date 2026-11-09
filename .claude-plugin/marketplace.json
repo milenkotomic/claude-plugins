@@ -1,0 +1,20 @@
+{
+  "name": "milenkotomic",
+  "description": "Milenko Tomic's Claude Code plugins",
+  "owner": {
+    "name": "Milenko Tomic",
+    "url": "https://github.com/milenkotomic"
+  },
+  "plugins": [
+    {
+      "name": "review-map",
+      "source": { "source": "github", "repo": "milenkotomic/review-map" },
+      "description": "Turn a diff, branch, PR or working tree into a reviewer-oriented map of the change, rendered as a styled HTML page."
+    },
+    {
+      "name": "handoff",
+      "source": { "source": "github", "repo": "milenkotomic/handoff" },
+      "description": "Save the live state of a task to a scrubbed handoff file outside the repo, and resume from it in a fresh session."
+    }
+  ]
+}
