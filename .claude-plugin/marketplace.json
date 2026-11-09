@@ -8,13 +8,27 @@
   "plugins": [
     {
       "name": "review-map",
-      "source": { "source": "github", "repo": "milenkotomic/review-map" },
+      "source": {
+        "source": "github",
+        "repo": "milenkotomic/review-map"
+      },
       "description": "Turn a diff, branch, PR or working tree into a reviewer-oriented map of the change, rendered as a styled HTML page."
     },
     {
       "name": "handoff",
-      "source": { "source": "github", "repo": "milenkotomic/handoff" },
+      "source": {
+        "source": "github",
+        "repo": "milenkotomic/handoff"
+      },
       "description": "Save the live state of a task to a scrubbed handoff file outside the repo, and resume from it in a fresh session."
+    },
+    {
+      "name": "retro",
+      "source": {
+        "source": "github",
+        "repo": "milenkotomic/retro"
+      },
+      "description": "Retrospectives for Claude Code: find what in the agent's environment slowed a session down, and propose evidence-backed fixes."
     }
   ]
 }
