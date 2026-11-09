@@ -29,6 +29,14 @@
         "repo": "milenkotomic/retro"
       },
       "description": "Retrospectives for Claude Code: find what in the agent's environment slowed a session down, and propose evidence-backed fixes."
+    },
+    {
+      "name": "ticket-board",
+      "source": {
+        "source": "github",
+        "repo": "milenkotomic/ticket-board"
+      },
+      "description": "Slice a spec into reviewable tickets, review them on a styled HTML board, and publish and sync them as GitHub issues on a GitHub Project."
     }
   ]
 }

@@ -8,6 +8,7 @@ repo; this repo is only the catalog.
 | [review-map](https://github.com/milenkotomic/review-map) | Turn a diff, branch, PR or working tree into a reviewer-oriented map of the change, rendered as a styled HTML page. |
 | [handoff](https://github.com/milenkotomic/handoff) | Save the live state of a task outside the repo and resume it in a fresh session. |
 | [retro](https://github.com/milenkotomic/retro) | Session retrospectives: find what in the agent's environment slowed a session down, and propose evidence-backed fixes. |
+| [ticket-board](https://github.com/milenkotomic/ticket-board) | Slice a spec into tickets, review them on an HTML board, and sync them to GitHub issues and a GitHub Project. |
 
 ## Install
 
@@ -16,6 +17,7 @@ claude plugin marketplace add milenkotomic/claude-plugins
 claude plugin install review-map@milenkotomic
 claude plugin install handoff@milenkotomic
 claude plugin install retro@milenkotomic
+claude plugin install ticket-board@milenkotomic
 ```
 
 Inside Claude Code: `/plugin marketplace add milenkotomic/claude-plugins`,
