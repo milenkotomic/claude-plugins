@@ -26,8 +26,10 @@ claude plugin marketplace update milenkotomic
 claude plugin update <name>@milenkotomic
 ```
 
-Plugins install from each repo's default branch, so a push there reaches
-you on the next update.
+Plugins install from each repo's default branch, but `plugin update`
+compares the `version` in the plugin's `.claude-plugin/plugin.json`, not the
+commit. Bump that version with every change you want to ship, or the update
+reports "already at the latest version" and keeps the old copy.
 
 ## Add a plugin
 
