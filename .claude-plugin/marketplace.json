@@ -37,6 +37,14 @@
         "repo": "milenkotomic/ticket-board"
       },
       "description": "Slice a spec into reviewable tickets, review them on a styled HTML board, and publish and sync them as GitHub issues on a GitHub Project."
+    },
+    {
+      "name": "homelab-triage",
+      "source": {
+        "source": "github",
+        "repo": "milenkotomic/homelab-triage"
+      },
+      "description": "Read-only incident triage for a self-hosted stack through the Grafana MCP: wide pass first, at most five suspects, one hypothesis at a time, 20-query budget."
     }
   ]
 }

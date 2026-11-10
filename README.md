@@ -9,6 +9,7 @@ repo; this repo is only the catalog.
 | [handoff](https://github.com/milenkotomic/handoff) | Save the live state of a task outside the repo and resume it in a fresh session. |
 | [retro](https://github.com/milenkotomic/retro) | Session retrospectives: find what in the agent's environment slowed a session down, and propose evidence-backed fixes. |
 | [ticket-board](https://github.com/milenkotomic/ticket-board) | Slice a spec into tickets, review them on an HTML board, and sync them to GitHub issues and a GitHub Project. |
+| [homelab-triage](https://github.com/milenkotomic/homelab-triage) | Read-only incident triage for a self-hosted stack through the Grafana MCP, with a wide pass first and a 20-query budget. |
 
 ## Install
 
@@ -18,6 +19,7 @@ claude plugin install review-map@milenkotomic
 claude plugin install handoff@milenkotomic
 claude plugin install retro@milenkotomic
 claude plugin install ticket-board@milenkotomic
+claude plugin install homelab-triage@milenkotomic
 ```
 
 Inside Claude Code: `/plugin marketplace add milenkotomic/claude-plugins`,
